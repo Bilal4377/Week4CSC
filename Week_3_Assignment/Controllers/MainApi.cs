@@ -48,6 +48,14 @@ namespace Week_3_Assignment.Controllers
                 {
                     childList.Add("Elements: " + counter + " Current Standard Deviation: " + standardDeviation);
                 }
+
+                System.Console.WriteLine(LogObject(i));
+            }
+
+            int LogObject(int parentList)
+            {
+                System.Diagnostics.Debug.WriteLine(parentList);
+                return parentList;
             }
 
             // Child list is returned.
